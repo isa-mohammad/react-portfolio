@@ -6,20 +6,20 @@ function Github() {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
-    grade4: "#8400b8",
-    grade3: "#b22ff4",
-    grade2: "#b265f6",
-    grade1: "#c084f5",
-    grade0: "#ecd9fc",
+    grade4: "#21d521",
+    grade3: "#1db61d",
+    grade2: "#1e991e",
+    grade1: "#1d861d",
+    grade0: "#176417",
   };
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+    <Row style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
-        blockSize={15}
+        username="isa-ismail"
+        blockSize={12}
         blockMargin={5}
         theme={colourTheme}
         fontSize={16}

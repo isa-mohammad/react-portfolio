@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Isa Mohammad Ismail </span>
             from <span className="purple"> Dhaka, Bangladesh.</span>
-            <br />I am a junior pursuing IT in Bangladesh University of Professionals
-            Mesra.
+            <br />I am a fullstack javascript developer. I have the professional skillsets of recent javascript frameworks like React, Next js, Express js. I know both SQL and NoSQL database. I have built versatile web apps using those tools and frameworks. And I am always a learner.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

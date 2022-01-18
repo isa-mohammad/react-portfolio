@@ -26,21 +26,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={algo}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Linked In Clone"
+              description="LinkedIn clone made with Next Js Framework, tailwind css and Material UI. It has sign in option with google account. Also implemented next auth and oauth with google account. MongoDB is used as NoSQL database"
+              link="https://github.com//Isa-Ismail/Linked_in_clone"
             />
           </Col>
 
@@ -48,19 +38,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Amazon Ecommerce Clone"
+              description="An Ecommerce clone for Amazon made with Next js Material UI. The basic functionalities of a Next js project is implemented here. This is still under development (you can check my github repo if you want to). The payment methods will be integrated. Paypal will be used as payment method. MongoDB is used as NoSQL database"
+              link="https://github.com/Isa-Ismail/next-pro-max"
             />
           </Col>
 
@@ -68,12 +48,22 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="A microblogging App"
+              description="This is a social platform which I created for fun. Various things have been implemented here like JWT verification, user authentication, NoSQL database, REST API development with Express and Node js. I have covered a lot in this project"
+              link="https://github.com/Isa-Ismail/MERN"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Simple Tic Tac Toe with react conditional renderin"
+              description="It is just a simple tic tac toe project to implement the basics of react conditional rendering. This project is just to keep the basics sharp and understanding the core lifecycle of react."
+              link="https://tictactoereact11.netlify.app/"
+            />
+          </Col>
+
         </Row>
         <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
@@ -83,7 +73,7 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={algo}
-              link=""
+              link="https://gitbook.com"
               title="Cracking Interview"
               site="gitbook.com"
             />
@@ -91,7 +81,7 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              link="https://medium.com/"
               title="Plant AI"
               site="medium.com"
             />
