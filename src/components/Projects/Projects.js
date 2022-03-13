@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import emotion from "../../Assets/Projects/coffee shop/coffee.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -49,8 +49,8 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="A microblogging App"
-              description="This is a social platform which I created for fun. Various things have been implemented here like JWT verification, user authentication, NoSQL database, REST API development with Express and Node js. I have covered a lot in this project"
-              link="https://github.com/Isa-Ismail/MERN"
+              description="This is a next js application to find coffee shops nearby. In this process I used SSR SSG and other next js features to make the app performant."
+              link="https://coffee-shop-alpha.vercel.app/"
             />
           </Col>
 
