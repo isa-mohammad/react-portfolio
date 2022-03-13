@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/coffee shop/coffee.png";
+import emotion from "../../Assets/Projects/coffee shop/shop.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
