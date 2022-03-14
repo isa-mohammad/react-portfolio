@@ -10,7 +10,7 @@ function Github() {
     grade3: "#1db61d",
     grade2: "#1e991e",
     grade1: "#1d861d",
-    grade0: "#176417",
+    grade0: "black",
   };
   return (
     <Row style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", paddingBottom: "10px" }}>
