@@ -7,10 +7,10 @@ function Type() {
       options={{
         strings: [
           "Full Stack Web Developer",
-          "Frontend framework: REACT",
-          "Database: MySql, MongoDB",
+          "Frontend framework: React with Next js",
+          "Database: MySql, MongoDB, Postgre SQL",
           "Backend framework: Node with express",
-          "Stack: According to project requirements, but I am Fluent using MERN stack."
+          "Stack: I am fluent using MERN stack"
         ],
         autoStart: true,
         loop: true,

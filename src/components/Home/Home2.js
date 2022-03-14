@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />Languages, libraries, frameworks and databases I am fluent using are
               <i>
-                <b className="purple"> C++, Java, Javascript, React, node, Express, MySql, MongoDB, Bootstrap.  </b>
+                <b className="purple"> C++, Java, Javascript, React, Next js, node, Express, MySql, MongoDB, Bootstrap.  </b>
               </i>
               <br />
               <br />

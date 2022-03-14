@@ -4,11 +4,10 @@ import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/coffee shop/shop.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -48,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="A microblogging App"
+              title="A Coffee-Shop App"
               description="This is a next js application to find coffee shops nearby. In this process I used SSR SSG and other next js features to make the app performant."
               link="https://coffee-shop-alpha.vercel.app/"
             />
