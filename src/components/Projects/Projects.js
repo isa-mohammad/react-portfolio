@@ -39,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="Amazon Ecommerce Clone"
               description="An Ecommerce clone for Amazon made with Next js Material UI. The basic functionalities of a Next js project is implemented here. This is still under development (you can check my github repo if you want to). The payment methods will be integrated. Paypal will be used as payment method. MongoDB is used as NoSQL database"
-              link="https://github.com/Isa-Ismail/next-pro-max"
+              link="https://next-pro-max.vercel.app"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="A Coffee-Shop App"
               description="This is a next js application to find coffee shops nearby. In this process I used SSR SSG and other next js features to make the app performant."
-              link="https://coffee-shop-alpha.vercel.app/"
+              link="https://cappuccino.vercel.app/"
             />
           </Col>
 

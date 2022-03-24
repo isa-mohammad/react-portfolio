@@ -55,7 +55,7 @@ function Resume() {
               content={["GPA 5 in all board exams."]}
             />
           
-            <h3 className="resume-title">Achivements</h3>
+            <h3 className="resume-title">Achievements</h3>
             <Resumecontent
               title=""
               content={[
