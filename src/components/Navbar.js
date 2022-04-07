@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          Isa Ismail
+          Ismail
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
