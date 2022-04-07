@@ -28,7 +28,7 @@ function Projects() {
               imgPath={algo}
               isBlog={false}
               title="Linked In Clone"
-              description="LinkedIn clone made with Next Js Framework, tailwind css and Material UI. It has sign in option with google account. Also implemented next auth and oauth with google account. MongoDB is used as NoSQL database"
+              description="LinkedIn Clone made with Next Js Framework, tailwind css and Material UI. It has sign in option with google account. Also implemented next auth and oauth with google account. MongoDB is used as NoSQL database"
               link="https://github.com//Isa-Ismail/Linked_in_clone"
             />
           </Col>
