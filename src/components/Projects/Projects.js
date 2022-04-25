@@ -10,6 +10,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
+import blog from "../../Assets/blog.PNG"
 
 function Projects() {
   return (
@@ -25,11 +26,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={algo}
+              imgPath={blog}
               isBlog={false}
-              title="Linked In Clone"
-              description="LinkedIn Clone made with Next Js Framework, tailwind css and Material UI. It has sign in option with google account. Also implemented next auth and oauth with google account. MongoDB is used as NoSQL database"
-              link="https://github.com//Isa-Ismail/Linked_in_clone"
+              title="Developed my own Blog site"
+              description="I created this blog site using web CMS technology Sanity. There I wrote about a few things or two. The main focus was to develop and maintain my own blog site using coding."
+              link="https://ismail-blogs.vercel.app/"
             />
           </Col>
 
