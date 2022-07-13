@@ -6,7 +6,7 @@ import Particle from "../Particle";
 
 import emotion from "../../Assets/Projects/coffee shop/shop.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/mentme.png";
 
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
@@ -24,13 +24,14 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={chatify}
               isBlog={false}
-              title="Developed my own Blog site"
-              description="I created this blog site using web CMS technology Sanity. There I wrote about a few things or two. The main focus was to develop and maintain my own blog site using coding."
-              link="https://ismail-blogs.vercel.app/"
+              title="Online mentorship platform"
+              description="Online mentorship platform where thousands of teacher and students can collaborate to learn and teach spontaneously."
+              link="https://mentme.io"
             />
           </Col>
 
@@ -51,16 +52,6 @@ function Projects() {
               title="A Coffee-Shop App"
               description="This is a next js application to find coffee shops nearby. In this process I used SSR SSG and other next js features to make the app performant."
               link="https://cappuccino.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Simple Tic Tac Toe with react conditional renderin"
-              description="It is just a simple tic tac toe project to implement the basics of react conditional rendering. This project is just to keep the basics sharp and understanding the core lifecycle of react."
-              link="https://tictactoereact11.netlify.app/"
             />
           </Col>
 
