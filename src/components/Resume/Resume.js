@@ -22,10 +22,10 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Building E-commerce(integrated with paypal) and Github Social network system using MERN stack"
-              date="June 2021 - January 2022"
+              title="Working on a team to build an online educational platform"
+              date="June 2022 - January 2023"
               content={[
-                "I have experience with developing REST API and use it in the frontend to make really performant and robusts web apps. I have worked with a team to develop an educational platform called mentme",
+                "I have experience with developing REST API and use it in the frontend to make really performant and robusts web apps. I have worked with a team to develop an online educational platform called mentme",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
