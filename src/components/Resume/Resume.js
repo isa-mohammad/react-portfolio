@@ -25,7 +25,7 @@ function Resume() {
               title="Building E-commerce(integrated with paypal) and Github Social network system using MERN stack"
               date="June 2021 - January 2022"
               content={[
-                "I have built two large scale projects that took me nearly a month or two. A fully functional E-commerce app and a social media app. I have used MERN stack to develop them both",
+                "I have experience with developing REST API and use it in the frontend to make really performant and robusts web apps. I have worked with a team to develop an educational platform called mentme",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
