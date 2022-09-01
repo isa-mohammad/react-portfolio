@@ -64,9 +64,8 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={algo}
-              link="https://gitbook.com"
-              title="Cracking Interview"
-              site="gitbook.com"
+              link="https://medium.com/@fahimismail75.scc/programming-or-software-engineering-art-or-craft-54fe6066ee3"
+              title="Software Engineering or Programming"
             />
           </Col>
           <Col md={4} className="blog-card">
@@ -74,7 +73,6 @@ function Projects() {
               imgPath={plant}
               link="https://medium.com/"
               title="Plant AI"
-              site="medium.com"
             />
           </Col>
         </Row>
