@@ -49,9 +49,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="A Coffee-Shop App"
-              description="This is a next js application to find coffee shops nearby. In this process I used SSR SSG and other next js features to make the app performant."
-              link="https://cappuccino.vercel.app/"
+              title="Department website of my university"
+              description="I developed the website of our department using NEXT js, mongoDB, tailwind CSS and deployed it in vercel."
+              link="https://website-of-ict-department.vercel.app/"
             />
           </Col>
 
