@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import emotion from "../../Assets/Projects/coffee shop/shop.png";
+import emotion from "../../Assets/Projects/coffee shop/ict.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/mentme.png";
 
