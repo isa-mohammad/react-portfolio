@@ -28,6 +28,13 @@ function Resume() {
                 "I have experience with developing REST API and use it in the frontend to make really performant and robusts web apps. I have worked with a team to develop an online educational platform called mentme",
               ]}
             />
+            <Resumecontent
+              title="Worked as a software Engineer intern at Selise BD"
+              date="November 2022 - January 2023"
+              content={[
+                "I have collaborated with the selise software team to develop an angular based project. Our Project was mainly workshop based. There, I had the vigor to learn new technologies and it was well appreciated.",
+              ]}
+            />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Have taken part in the national blockchain olympiad in 2020."
