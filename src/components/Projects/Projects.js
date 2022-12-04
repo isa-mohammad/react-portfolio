@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/coffee shop/shop.png";
 import chatify from "../../Assets/Projects/mentme.png";
 
 import algo from "../../Assets/Projects/algo.png";
@@ -39,9 +39,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Amazon Ecommerce Clone"
-              description="An Ecommerce clone for Amazon made with Next js Material UI. The basic functionalities of a Next js project is implemented here. This is still under development (you can check my github repo if you want to). The payment methods will be integrated. Paypal will be used as payment method. MongoDB is used as NoSQL database"
-              link="https://next-pro-max.vercel.app"
+              title="Coffee Shop Nearby"
+              description="An App to search for nearby coffee shops around my area. A third party geolocation API has been used here."
+              link="https://cappuccino.vercel.app/"
             />
           </Col>
 
