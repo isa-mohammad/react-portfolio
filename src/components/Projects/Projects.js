@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
-import editor from "../../Assets/Projects/coffee shop/shop.png";
+import editor from "../../Assets/Projects/coffee shop/dash.png";
 import chatify from "../../Assets/Projects/mentme.png";
 
 import algo from "../../Assets/Projects/algo.png";
@@ -39,9 +39,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Coffee Shop Nearby"
-              description="An App to search for nearby coffee shops around my area. A third party geolocation API has been used here."
-              link="https://cappuccino.vercel.app/"
+              title="Angular e-commerce"
+              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Node js as backend"
+              link="https://data-table-app.vercel.app"
             />
           </Col>
 
