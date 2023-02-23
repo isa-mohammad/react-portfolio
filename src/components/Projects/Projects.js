@@ -6,7 +6,7 @@ import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
 import editor from "../../Assets/Projects/coffee shop/dash.png";
-import chatify from "../../Assets/Projects/mentme.png";
+import chatify from "../../Assets/Projects/next-pro-max.png";
 
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
@@ -29,9 +29,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Online mentorship platform"
-              description="Online mentorship platform where thousands of teacher and students can collaborate to learn and teach spontaneously."
-              link="https://mentme.io"
+              title="Amazon clone with Next js"
+              description="This amazon clone app has authentication and authorization and product details. Material UI is used for design and the code is very reusable"
+              link="https://next-pro-max.vercel.app"
             />
           </Col>
 
