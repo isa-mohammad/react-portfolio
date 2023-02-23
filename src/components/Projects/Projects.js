@@ -30,7 +30,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Amazon clone with Next js"
-              description="This amazon clone app has authentication and authorization and product details. Material UI is used for design and the code is very reusable"
+              description="This amazon clone app has authentication, authorization, product details, complex cart functionalities and more. Material UI is used for design and the code is very reusable"
               link="https://next-pro-max.vercel.app"
             />
           </Col>
