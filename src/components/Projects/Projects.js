@@ -29,6 +29,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
+              git="https://github.com/Isa-Ismail/next-pro-max"
               title="Amazon clone with Next js"
               description="This amazon clone app has authentication, authorization, product details, complex cart functionalities and more. Material UI is used for design and the code is very reusable"
               link="https://next-pro-max.vercel.app"
@@ -38,6 +39,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
+              git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="Angular e-commerce"
               description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Node js as backend"
@@ -48,6 +50,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
+              git="https://github.com/Isa-Ismail/website-of-ict-department"
               isBlog={false}
               title="Department website of my university"
               description="I developed the website of our department using NEXT js, mongoDB, tailwind CSS and deployed it in vercel."
