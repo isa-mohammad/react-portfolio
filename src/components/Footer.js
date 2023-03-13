@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/isa-mohammad-ismail-fahim-80b3b21b0/"
+                href="https://www.linkedin.com/in/isa-mohammad-ismail-80b3b21b0/"
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />
