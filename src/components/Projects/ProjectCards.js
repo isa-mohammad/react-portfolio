@@ -15,11 +15,11 @@ function ProjectCards(props) {
         <div style = {{ display: 'flex', justifyContent: 'space-between', gap: '4px'}}>
           <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isBlog ? "View Blog" : <p>View Project</p>}
         </Button>
         <Button variant="primary" href={props.git} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "Github Repo"}
+          {props.isBlog ? "View Blog" : <p>Github Repo</p>}
         </Button>
         </div>
       </Card.Body>
