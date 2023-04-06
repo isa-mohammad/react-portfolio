@@ -26,7 +26,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -37,7 +37,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={editor}
               git="https://github.com/Isa-Ismail/data-table-app"
@@ -48,7 +48,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={emotion}
               git="https://github.com/Isa-Ismail/website-of-ict-department"
@@ -59,7 +59,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={chat}
               git="https://github.com/Isa-Ismail/chat-app"
