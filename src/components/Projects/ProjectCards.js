@@ -12,7 +12,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <div style = {{ display: 'flex', justifyContent: 'space-between'}}>
+        <div style = {{ display: 'flex', justifyContent: 'space-between', gap: '1rem'}}>
           <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
