@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               git="https://github.com/Isa-Ismail/next-pro-max"
               title="Amazon clone with Next js"
-              description="This amazon clone app has authentication, authorization, product details, complex cart functionalities and more. Material UI is used for design and the code is very reusable"
+              description="This amazon clone app has authentication, authorization, product details, complex cart functionalities and more. Material UI is used for design and the code is very reusable for any future refactoring and redesign."
               link="https://next-pro-max.vercel.app"
             />
           </Col>
@@ -43,7 +43,7 @@ function Projects() {
               git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="Angular e-commerce"
-              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Node js as backend"
+              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Node js as backend. Authentication and authorization will be added later on."
               link="https://data-table-app.vercel.app"
             />
           </Col>
