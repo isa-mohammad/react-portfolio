@@ -54,7 +54,7 @@ function Projects() {
               git="https://github.com/Isa-Ismail/chat-app"
               isBlog={false}
               title="A real time chat application"
-              description="I developed this chat application in which any one can login and register to use the application. All of the operations of real time messages and authentication is configured and integrated with firebae"
+              description="I developed this chat application in which any one can login and register to use the application. All of the operations of real time messages and authentication is configured and integrated with firebase."
               link="https://chatty-react.vercel.app/"
             />
           </Col>
