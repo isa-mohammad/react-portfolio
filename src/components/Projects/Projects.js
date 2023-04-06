@@ -5,6 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
+import chat from "../../Assets/chat.png";
 import editor from "../../Assets/Projects/coffee shop/dash.png";
 import chatify from "../../Assets/Projects/next-pro-max.png";
 
@@ -55,6 +56,17 @@ function Projects() {
               title="Department website of my university"
               description="I developed the website of our department using NEXT js, mongoDB, tailwind CSS and deployed it in vercel."
               link="https://website-of-ict-department.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              git="https://github.com/Isa-Ismail/chat-app"
+              isBlog={false}
+              title="A real time chat application"
+              description="I developed this chat application in which any one can login and register to use the application. All of the operations of real time messages and authentication is configured and integrated with firebae"
+              link="https://chatty-react.vercel.app/"
             />
           </Col>
 
