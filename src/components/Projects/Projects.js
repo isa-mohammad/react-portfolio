@@ -43,7 +43,7 @@ function Projects() {
               git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="Angular e-commerce"
-              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Node js as backend. Authentication and authorization will be added later on."
+              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Express as backend. Authentication and authorization will be added later on with express backend."
               link="https://data-table-app.vercel.app"
             />
           </Col>
