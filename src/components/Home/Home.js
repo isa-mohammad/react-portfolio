@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/hero.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Github from "../About/Github";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
               <img src={homeLogo} alt="home pic" className="img-fluid" style = {{ height: '', width: ''}} />
             </Col>
           </Row>
+          <Github />
         </Container>
       </Container>
       <Home2 />
