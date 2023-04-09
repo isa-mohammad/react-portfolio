@@ -36,7 +36,7 @@ function Projects() {
               link="https://next-pro-max.vercel.app"
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
