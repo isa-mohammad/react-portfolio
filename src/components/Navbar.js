@@ -35,8 +35,9 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+      style={{width: '100vw', display: 'flex', justifyContent: 'center'}}
     >
-      <Container>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <Navbar.Brand href="/">
           ISMAIL
         </Navbar.Brand>
@@ -100,7 +101,7 @@ function NavBar() {
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }
