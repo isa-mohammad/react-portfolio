@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
-import chat from "../../Assets/chat.png";
+import chat from "../../Assets/bup.png";
 import editor from "../../Assets/Projects/coffee shop/dash.png";
 import chatify from "../../Assets/Projects/next-pro-max.png";
 
@@ -51,11 +51,11 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat}
-              git="https://github.com/Isa-Ismail/chat-app"
+              git="https://github.com/Isa-Ismail/website-of-ict-department"
               isBlog={false}
-              title="A real time chat application"
-              description="I developed this chat application in which any one can login and register to use the application. All of the operations of real time messages and authentication is configured and integrated with firebase."
-              link="https://chatty-react.vercel.app/"
+              title="A dynamic website of ICT department (still under development)"
+              description="I developed this web application for my department and I worked with my fellow classmates and led them to design and develop this website. This is still under development."
+              link="https://website-of-ict-department.vercel.app/"
             />
           </Col>
 
