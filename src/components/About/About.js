@@ -44,7 +44,7 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

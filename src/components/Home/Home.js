@@ -32,7 +32,7 @@ function Home() {
               <img src={homeLogo} alt="home pic" className="img-fluid" style = {{ height: '', width: ''}} />
             </Col>
           </Row>
-          <Github />
+          {/* <Github /> */}
         </Container>
       </Container>
       <Home2 />

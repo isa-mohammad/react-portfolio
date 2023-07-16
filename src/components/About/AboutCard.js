@@ -30,6 +30,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "A person who never made a mistake had never tried something new"{" "}
           </p>
+          <br></br>
           <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
       </Card.Body>
