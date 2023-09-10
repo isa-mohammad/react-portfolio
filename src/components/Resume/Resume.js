@@ -54,7 +54,7 @@ function Resume() {
             <Resumecontent
               title="Bangladesh University of Professionals"
               date="2020 - Present"
-              content={[`CGPA: 3.55 (Till 4th Sem)`]}
+              content={[`CGPA: 3.42`]}
             />
             <Resumecontent
               title="Sylhet Cadet College"
