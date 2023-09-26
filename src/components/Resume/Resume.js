@@ -29,7 +29,7 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Worked as a software Engineer intern at Selise BD"
+              title="Worked as a software Engineer intern at Selise Digital Platform"
               date="November 2022 - January 2023"
               content={[
                 "I have collaborated with the selise software team to develop an angular based project. Our Project was mainly workshop based. There, I had the vigor to learn new technologies and it was well appreciated.",
@@ -54,7 +54,7 @@ function Resume() {
             <Resumecontent
               title="Bangladesh University of Professionals"
               date="2020 - Present"
-              content={[`CGPA: 3.55 (Till 4th Sem)`]}
+              content={[`CGPA: 3.42`]}
             />
             <Resumecontent
               title="Sylhet Cadet College"
