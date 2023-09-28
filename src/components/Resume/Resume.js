@@ -45,7 +45,7 @@ function Resume() {
             <Resumecontent
               title="I had a Free code camp bootcamp."
               content={[
-                "I have solved many challenges in the free code camp bootcamp that enriched my knowledge and inspired me to be a developer.",
+                "I have solved many challenges in the free code camp bootcamp that enriched my knowledge and inspired me to be a natural problem solver.",
               ]}
             />
           </Col>
