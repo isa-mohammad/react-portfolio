@@ -66,9 +66,8 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Inter department Coding Festival",
+                "Inter department Coding top participant",
                 "Participant in National Blockchain Olympiad 2020",
-                "I have completed a course in freecodecamp and got a certificate."
               ]}
             />
           </Col>
