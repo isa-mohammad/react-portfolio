@@ -24,6 +24,8 @@ function Like() {
       });
   }, []);
 
+  
+
   function clickHandler() {
     updateClass("far fa-heart animate-like");
     updateLike(numLike + 1);
