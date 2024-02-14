@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
-import chat from "../../Assets/bup.png";
+import chat from "../../Assets/ict.png";
 import editor from "../../Assets/Projects/coffee shop/dash.png";
 import chatify from "../../Assets/Projects/next-pro-max.png";
 
@@ -51,11 +51,11 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat}
-              git="https://github.com/Isa-Ismail/website-of-ict-department"
+              git="https://github.com/Isa-Ismail/games-mania"
               isBlog={false}
-              title="A dynamic website of ICT department (still under development)"
-              description="I developed this web application for my department and I worked with my fellow classmates and led them to design and develop this website. This is still under development."
-              link="https://website-of-ict-department.vercel.app/"
+              title="An online quiz application for gamers"
+              description="I developed this web application for my fellow nerd gamer friends to have fun and compete with each other. I update the quiz questions and topics based on their suggestions. You can participate in the quiz if you want."
+              link="https://games-mania.vercel.app/"
             />
           </Col>
 
