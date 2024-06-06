@@ -5,6 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import emotion from "../../Assets/ict.png";
+import aizamd from "../../Assets/aizamd.jpg"
 import chat from "../../Assets/ict.png";
 import editor from "../../Assets/Projects/coffee shop/dash.png";
 import chatify from "../../Assets/Projects/next-pro-max.png";
@@ -25,6 +26,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aizamd}
+              git="https://github.com/Isa-Ismail/data-table-app"
+              isBlog={false}
+              title="AizaMD healthcare Application and Chrome Extension"
+              description="AizaMD.AI is a voice-enabled solution revolutionizing radiology reporting. Reduce report generation time, increase accuracy, and enhance patient care. Enjoy effortless reporting, swift results, and a streamlined workflow, all powered by our Ambient AI technology."
+              link="https://aizamd.ai/"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
