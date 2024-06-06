@@ -33,7 +33,7 @@ function Projects() {
               git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="AizaMD healthcare Application and Chrome Extension"
-              description="AizaMD.AI is a voice-enabled solution revolutionizing radiology reporting. Reduce report generation time, increase accuracy, and enhance patient care. Enjoy effortless reporting, swift results, and a streamlined workflow, all powered by our Ambient AI technology."
+              description="I have worked in an AI based Startup Neurocare.AI to develop an AI based healthcare Application. AizaMD.AI is a voice-enabled solution revolutionizing radiology reporting. Reduce report generation time, increase accuracy, and enhance patient care. Enjoy effortless reporting, swift results, and a streamlined workflow, all powered by our Ambient AI technology."
               link="https://aizamd.ai/"
             />
           </Col>
