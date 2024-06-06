@@ -16,9 +16,9 @@ function ProjectCards(props) {
           <Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.link} target="_blank">
           {props.isBlog ? "View Blog" : <p>View Project</p>}
         </Button>
-        <Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.git} target="_blank">
+        {!props.description.includes("aizamd")&&<Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.git} target="_blank">
           {props.isBlog ? "View Blog" : <p>Github Repo</p>}
-        </Button>
+        </Button>}
         </div>
       </Card.Body>
     </Card>
