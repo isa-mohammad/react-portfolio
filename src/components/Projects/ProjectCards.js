@@ -16,7 +16,7 @@ function ProjectCards(props) {
           <Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.link} target="_blank">
           {props.isBlog ? "View Blog" : <p>View Project</p>}
         </Button>
-        {!props.link.includes("https://aizamd.ai/")&&<Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.git} target="_blank">
+        {!props.link.includes("https://aizamd.ai/" || "https://app.radioview.ai/")&&<Button style = {{ display: 'flex', alignItems: 'center'}} variant="primary" href={props.git} target="_blank">
           {props.isBlog ? "View Blog" : <p>Github Repo</p>}
         </Button>}
         </div>

@@ -52,11 +52,11 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              git="https://github.com/Isa-Ismail/data-table-app"
+             
               isBlog={false}
-              title="Angular e-commerce"
-              description="An E-commerce app which includes serverside pagination and sorting made with Angular and typescript, MongoDB as database, Express as backend. Authentication and authorization will be added later on with express backend."
-              link="https://data-table-app.vercel.app"
+              title="RadioView.AI Web Application"
+              description="RadioView.AI automates radiology reports, integrating ICD-10 and CPT codes for accurate and efficient documentation."
+              link="https://app.radioview.ai/"
             />
           </Col>
 
