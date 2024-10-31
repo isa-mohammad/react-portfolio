@@ -33,7 +33,7 @@ function Projects() {
               git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="AizaMD healthcare Application and Chrome Extension"
-              description="I have worked in an AI based Startup Neurocare.AI to develop an AI based healthcare Application. AizaMD.AI is a voice-enabled solution revolutionizing radiology reporting. Reduce report generation time, increase accuracy, and enhance patient care. Enjoy effortless reporting, swift results, and a streamlined workflow, all powered by our Ambient AI technology."
+              description="I have worked in an AI based Startup Neurocare.AI to develop an AI based healthcare Application. AizaMD.AI is a voice-enabled solution revolutionizing radiology reporting."
               link="https://aizamd.ai/"
             />
           </Col>
@@ -52,7 +52,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-             
+              git="https://github.com/Isa-Ismail/data-table-app"
               isBlog={false}
               title="RadioView.AI Web Application"
               description="RadioView.AI automates radiology reports, integrating ICD-10 and CPT codes for accurate and efficient documentation."
