@@ -7,7 +7,7 @@ import Particle from "../Particle";
 import emotion from "../../Assets/ict.png";
 import aizamd from "../../Assets/aizamd.jpg"
 import chat from "../../Assets/ict.png";
-import editor from "../../Assets/Projects/coffee shop/dash.png";
+import editor from "../../Assets/radio.png";
 import chatify from "../../Assets/Projects/next-pro-max.png";
 
 import algo from "../../Assets/Projects/algo.png";
