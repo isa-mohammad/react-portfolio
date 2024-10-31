@@ -37,6 +37,17 @@ function Projects() {
               link="https://aizamd.ai/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              git="https://github.com/Isa-Ismail/data-table-app"
+              isBlog={false}
+              title="RadioView.AI Web Application"
+              description="RadioView.AI automates radiology reports, integrating ICD-10 and CPT codes for accurate and efficient documentation. RadioView.AI is a cutting-edge Chrome extension designed for automated radiology report generation, complete with ICD-10 and CPT codes integration."
+              link="https://app.radioview.ai/"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -49,17 +60,6 @@ function Projects() {
             />
           </Col>
           
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              git="https://github.com/Isa-Ismail/data-table-app"
-              isBlog={false}
-              title="RadioView.AI Web Application"
-              description="RadioView.AI automates radiology reports, integrating ICD-10 and CPT codes for accurate and efficient documentation."
-              link="https://app.radioview.ai/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat}
