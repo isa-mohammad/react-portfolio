@@ -22,10 +22,10 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer (Frontend) at Neurocare.AI"
+              title="Software Engineer (Frontend) at SaveLife.AI"
               date="October 2023 - Present"
               content={[
-                "I have been working with Neurocare.AI since 2023. Its a startup with cutting edge tech and a great team of engineers all around the world.",
+                "I have been working in SaveLife.AI a healthtech company since 2023. Its a company with cutting edge tech and a great team of engineers all around the world.",
               ]}
             />
             <Resumecontent
