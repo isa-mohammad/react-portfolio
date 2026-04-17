@@ -42,8 +42,8 @@ importers:
         specifier: ^4.3.1
         version: 4.12.0(react@17.0.2)
       react-parallax-tilt:
-        specifier: ^1.7.42
-        version: 1.7.323(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+        specifier: 1.7.42
+        version: 1.7.42(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react-pdf:
         specifier: ^5.7.1
         version: 5.7.2(@types/react@19.2.14)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(webpack@5.106.2)
@@ -4921,11 +4921,11 @@ packages:
   react-lifecycles-compat@3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
 
-  react-parallax-tilt@1.7.323:
-    resolution: {integrity: sha512-tU0cMZ5PMxr3iR5xDKzOCnXXqGT3IMypmS9YYiZO36xGv+iZbzwmuYKArRUbvcMwP39IPvm3PgCUG+lsRwmsFQ==}
+  react-parallax-tilt@1.7.42:
+    resolution: {integrity: sha512-LXanI27Rl0nqnv3Dojtr0P5WtYTXvXKq6PICHnvMBpFbq4CRIF3JFqgYyopnF0lU6vDzzZnZGN+ZgQehGjXSQA==}
     peerDependencies:
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
 
   react-pdf@5.7.2:
     resolution: {integrity: sha512-hdDwvf007V0i2rPCqQVS1fa70CXut17SN3laJYlRHzuqcu8sLLjEoeXihty6c0Ev5g1mw31b8OT8EwRw1s8C4g==}
@@ -12000,7 +12000,7 @@ snapshots:
 
   react-lifecycles-compat@3.0.4: {}
 
-  react-parallax-tilt@1.7.323(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  react-parallax-tilt@1.7.42(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
