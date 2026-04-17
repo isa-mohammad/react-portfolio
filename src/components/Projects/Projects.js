@@ -5,7 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import aizamd from "../../Assets/aizamd.jpg"
-import chat from "../../Assets/ict.png";
+// import chat from "../../Assets/ict.png";
 import editor from "../../Assets/radio.png";
 import chatify from "../../Assets/Projects/cal.png";
 
