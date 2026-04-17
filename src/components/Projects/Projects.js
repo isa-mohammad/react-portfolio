@@ -7,7 +7,7 @@ import Particle from "../Particle";
 import aizamd from "../../Assets/aizamd.jpg"
 import chat from "../../Assets/ict.png";
 import editor from "../../Assets/radio.png";
-import chatify from "../../Assets/Projects/next-pro-max.png";
+import chatify from "../../Assets/Projects/cal.png";
 
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
@@ -46,19 +46,19 @@ function Projects() {
               link="https://app.radioview.ai/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              git="https://github.com/Isa-Ismail/next-pro-max"
-              title="Amazon clone with Next js"
-              description="This amazon clone app has authentication, authorization, product details, complex cart functionalities and more. Material UI is used for design and the code is very reusable for any future refactoring and redesign."
-              link="https://next-pro-max.vercel.app"
+              git="https://github.com/isa-mohammad/AI-Calory"
+              title="AI meal planner and calorie tracker"
+              description="This web based application is designed to help users plan their meals and track their calorie intake. It uses AI to suggest meal plans based on user preferences and dietary restrictions, making it easier for users to maintain a healthy lifestyle."
+              link="https://ai-calory.vercel.app"
             />
           </Col>
-          
-          <Col md={4} className="project-card">
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat}
               git="https://github.com/Isa-Ismail/games-mania"
@@ -67,7 +67,7 @@ function Projects() {
               description="I developed this web application for my fellow nerd gamer friends to have fun and compete with each other. I update the quiz questions and topics based on their suggestions. You can participate in the quiz if you want."
               link="https://games-mania.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
         </Row>
         <h1 className="project-heading">
